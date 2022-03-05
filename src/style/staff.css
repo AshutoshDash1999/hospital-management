@@ -1,0 +1,33 @@
+select{
+    display: block;
+    margin: 1rem;
+    padding: 0.3rem 0.7rem;
+    font-size: 2rem;
+    border-radius: 0.3rem;
+    transition: ease-in-out 0.2s;
+    font-family: 'Nunito', sans-serif;
+    border: 3px solid #dedede;
+
+}
+
+select:focus{
+    outline: none;
+    border: 3px solid #10b981;
+}
+
+select, option{
+    color: #818181;
+}
+
+th, td{
+    border: 3px solid #dedede;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.patient-graph{
+    display: flex;
+    
+}

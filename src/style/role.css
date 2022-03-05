@@ -1,0 +1,30 @@
+.role-btn-group{
+  display: flex;
+}
+
+button{
+    margin: 2rem;
+    text-align: center;
+    padding: 1rem 1.9rem;
+    font-size: 1.6rem;
+    border-radius: 5rem;
+    background: #d5ffde;
+    color: #22ce6a;
+    font-weight: 600;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow:  0 5px 10px 1px rgba(33,35,38,0.1);
+}
+
+.backBtn{
+  background: #e6e6e6;
+  color: #575757;
+  display: flex;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+}
